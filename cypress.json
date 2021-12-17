@@ -1,0 +1,12 @@
+{
+  "baseUrl": "https://jsonplaceholder.typicode.com",
+  "testFiles": "**/*.spec.js",
+  "watchForFileChanges": false,
+  "pageLoadTimeout": 120000,
+  "responseTimeout": 100000,
+  "defaultCommandTimeout": 50000,
+  "numTestsKeptInMemory": 5,
+  "requestTimeout": 7000,
+  "failOnStatusCode": true,
+  "video": false
+}

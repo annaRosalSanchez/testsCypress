@@ -4,7 +4,8 @@
   "description": "prueba de cypress funcionales api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec \"cypress/integration/API-Tests/**/**.spec.js\" --headless"
   },
   "keywords": [
     "qa",
@@ -17,5 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^9.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/annaRosalSanchez/testsCypress"
   }
 }
